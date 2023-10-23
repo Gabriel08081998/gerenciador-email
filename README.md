@@ -71,6 +71,15 @@ Utilização de validação de dados com anotações para garantir a integridade
 
 **Lombok**: Biblioteca Java que simplifica o desenvolvimento eliminando a necessidade de escrever métodos getters, setters e outros métodos comuns.
 
+# Exceção 
+
+E realizado o tratamento de exceção ao realizar consulta do usuario por id. Os endpoints que tem esse tratamento são :
+
+* consultar usuario por id
+* consultar emails recebidos 
+* consultar emails enviados
+
+
  # Executando o Projeto Localmente:
 Para executar o projeto localmente, siga estas etapas:
 
@@ -104,3 +113,8 @@ Email
 -------------------------------------
 + getters/setters
 -------------------------------------
+
+
+# Melhorias  
+
+Realizar tratamentos de exceções em todos os metodos que realizam consulta por id.
